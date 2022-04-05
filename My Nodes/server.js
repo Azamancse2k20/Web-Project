@@ -70,7 +70,7 @@ app.get("/getdata", async function (req, res) {
     
 });
 
-//quary displaye input froms table
+//quary displaye input froms table and display data
 
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:3000/quotes";
