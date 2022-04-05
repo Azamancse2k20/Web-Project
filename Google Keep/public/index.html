@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>My Nodes</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="topnav">
+  <a class="more" href="#home"><img src="/images/more.png"</a>
+  <a class="keep" href="#about"><img src="/images/keeps (1).png"</a>
+  <a class="text" href="#contact">Keeps</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  <div class="topnavright">
+  <a class="reload" href="#"><img src="/images/reload.png"</a>
+  <a class="listView" href="#"><img src="/images/view-list-button.png"</a>
+  <a class="setting" href="#"><img src="/images/gear.png"</a>
+  <a class="list_View" href="#"><img src="/images/menu.png"</a>
+  <a class="image" href="#"><img src="/images/profile.png"</a>
+</div>
+</div>
+
+<!-- <div class="manuList">
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#Nodes">Nodes</a>
+          <a href="#Reminders">Reminders</a>
+          <a href="#Edit lebels">Edit lebels</a>
+          <a href="#Archive">Archive</a>
+          <a href="#Trash">Trash</a>
+      </div>
+</div> -->
+<div class="container my-3" id="container">
+    <div class="card text-dark bg-light mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Write a note</h5>
+            <div class="form-group">
+                <textarea id="addNote" class="form-control" aria-label="With textarea"></textarea>
+            </div>
+            <br />
+            <button id="addBtn" class="btn btn-primary">Add</button>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div id="noMatches" class="row container-fluid">
+    
+    </div>
+    
+    <div id="notes" class="row container-fluid">
+        
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</body>
+</html>
+
